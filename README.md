@@ -1,7 +1,7 @@
-# ahk-micmute
+# ahk-micmute (jmartindf fork)
 AutoHotkey script for muting and unmuting microphone with mouse buttons.
 
-This project is no longer maintained, in favor of [MicMuteToggle](https://github.com/fredemmott/MicMuteToggle). While ahk-micmute is more flexible, it is incompatible with some programs; for example, Black Ops 4 will immediately exit if AutoHotKey is running.
+fredemmott deprecated this project, in favor of [MicMuteToggle](https://github.com/fredemmott/MicMuteToggle). While ahk-micmute is more flexible, it is incompatible with some programs; for example, Black Ops 4 will immediately exit if AutoHotKey is running.
 
 ## Installation
 
@@ -12,11 +12,11 @@ This project is no longer maintained, in favor of [MicMuteToggle](https://github
 
 ## Usage
 
-1. Hit `XButton1` (mouse button 4, a.k.a. 'back') to toggle mute while the button is held
-1. Hit `XButton2` (mouse button 5, a.k.a. 'forward') to toggle mute
+1. Hit `Right-Control` (The "Control" button to the right of the space bar) to toggle mute while the button is held
+1. Double tap the `Pause` button (located between the "ScrLk" and "NumLk" keys on my keyboard) to toggle mute
 1. Configure your software (games, discord, skype etc) to use 'open mic'
 
-This effectively means that mouse button 5 switches you between 'push to talk' and 'push to mute', and mouse button 4 is the PTT/PTM button. It toggles system-wide mute, effectively getting you system-wide PTT/PTM when everything is set to open mic.
+This effectively means that Pause switches you between 'push to talk' and 'push to mute', and Right-Control is the PTT/PTM button. It toggles system-wide mute, effectively getting you system-wide PTT/PTM when everything is set to open mic.
 
 ## Customization
 

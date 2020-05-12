@@ -12,6 +12,7 @@
 ; Unmute icon is an edited version of the mute icon
 ; 
 ; Use VA instead of SoundSet/SoundGet because of being able to set these on the default capture device
+; VA from https://github.com/ahkscript/vistaaudio
 #include <VA>
 
 #SingleInstance, force
