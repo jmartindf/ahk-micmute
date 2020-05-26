@@ -21,13 +21,14 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 #persistent
 
 BoundToggle := Func("ToggleMute")
+BoundIcon := Func("ToggleIcon")
 
 Menu, Tray, NoStandard
 Menu, Tray, Add, M&ute Mic, % BoundToggle
 Menu, Tray, Standard
 Menu, Tray, Default, M&ute Mic
 Menu, Tray, Click, 1
-
+SetTimer %BoundIcon%, 500
 OnExit, ExitSub
 MuteOn()
 Return
