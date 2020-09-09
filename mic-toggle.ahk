@@ -93,11 +93,12 @@ ToggleMute()
 ;ToggleIcon()
 return
 
+; Right-Shift (was Pause)
 ; Pause (was Right-Control)
 ; This toggles the mute button key between Push-To-Talk and Push-To-Mute
 ;~RControl::
-~Pause::
-if (A_PriorHotkey <> "~Pause" or A_TimeSincePriorHotkey > 400)
+~RShift::
+if (A_PriorHotkey <> "~RShift" or A_TimeSincePriorHotkey > 400)
 {
     ; Too much time between presses, so this isn't a double-press.
     KeyWait, Pause
